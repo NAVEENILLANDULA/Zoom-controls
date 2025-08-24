@@ -5,9 +5,10 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 10px 20px;
   border-radius: 20px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 200px auto 0px auto;
   gap: 20px;
   flex-wrap: wrap;
@@ -21,8 +22,9 @@
     font-size: 20px;
 }
 .child{
-    flex: 1 1 auto;
-    
+  /* flex: 1 1 auto;
+  flex: none; */
+      
 }
 .container-2{
     display: flex;
