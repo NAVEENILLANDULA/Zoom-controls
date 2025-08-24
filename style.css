@@ -1,0 +1,65 @@
+.container{
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 1200px;
+  margin: 200px auto 0px auto;
+  gap: 20px;
+  flex-wrap: wrap;
+    
+}
+  
+.child i{
+    font-size: 40px;    
+}
+.child p{
+    font-size: 20px;
+}
+.child{
+    flex: 1 1 auto;
+    
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+.bar-1{
+  
+  padding: 6px 14px;
+  border-radius: 4px 0px 0px 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+}
+.bar-2{
+    padding: 6px 14px;
+  border-radius: 0px 4px 4px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: bold;
+
+}
+.bar-1.green {
+  background:green;
+}
+
+.bar-2.red {
+  background: red;
+}
+
+.child-5 i.bi-arrow-up-square-fill{
+  color:green;              
+  padding: 6px;               
+  border-radius: 6px;
+  
+  
+}
